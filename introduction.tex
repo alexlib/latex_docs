@@ -1,0 +1,47 @@
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+
+
+\bibliographystyle{plain}
+
+% The next line sets 1.5 spacing
+\onehalfspacing
+\begin{document}
+
+% Title Page
+\author{OpenPTV Team}
+\title{OpenPTV documentation}
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+
+% Summary
+\pagestyle{fancy}
+
+\begin{abstract}
+OpenPTV is ...
+
+\begin{figure}[!ht]
+\includegraphics[width=5cm]{img/OpenPTV_logo.png}
+\end{figure}
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+\newpage
+
+%Introduction - load in the intro.tex file
+\chapter{Introduction}
+
+
+
+%Conclusions
+
+\bibliography{ptv} % load in the info produced from test.bib
+
+\appendix
+\input{appendix}
+
+\end{document}
