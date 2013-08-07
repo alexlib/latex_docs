@@ -5,7 +5,8 @@ Documentation of OpenPTV project, written in LaTeX
 
 We can compile it using the great service by the online LaTeX compiler:
 
-```http://latex.aslushnikov.com/compile?git=<repo>&target=<target>```
+    http://latex.aslushnikov.com/compile?git=<repo>&target=<target> 
+
 
 see the example of this repository compiled:
 
