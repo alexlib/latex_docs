@@ -1,5 +1,6 @@
 OpenPTV documentation in LaTeX
 ==========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/alexlib/latex_docs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Documentation of OpenPTV project, written in LaTeX
 
